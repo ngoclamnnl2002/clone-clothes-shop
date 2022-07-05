@@ -1,0 +1,20 @@
+.products{
+    margin-top: 135px;
+}
+.product{
+    margin-bottom: 20px;
+    height: 395px;
+}
+.product-best-seller{
+    border-bottom: 1px solid #e5e5e5;
+}
+.btn-buy{
+    top: 296.5px;
+    min-width: 262.5px;
+}
+.product-all{
+    border-bottom: 1px solid #e5e5e5;
+}
+.container{
+    margin-top: 135px;
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link logo web-->
+    <link rel="icon" href="https://iconape.com/wp-content/png_logo_vector/blackpink-logo.png" type="image/gif" sizes="16x16">
+    <!--Resert CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--Link icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/animation.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <title>She by Shj</title>
+</head>
+<body>
+    <div class="App">
+        <!--HEADER-->
+        <header id="header" class="header hidden-on-mobile-tablet">
+            <div class="grid wide">
+                <nav class="header__navbar">
+                    <div class="header__icon">
+                        <a href="./index.html" class="header__icon-link">SHEBYSHJ</a>
+                    </div>
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="./fall-winter.html" class="header__list-item-link active"><span>WINTER '21</span></a></li>
+                        <li class="header__list-item header__list-item-products">
+                            <a href="./products.html" class="header__list-item-link"><span>PRODUCTS</span></a>
+                            <div class="header__list-item-products-menu">
+                                <ul class="header__list-item-products-menu-list">
+                                    <li class="header__list-item-products-menu-list-item"><a href="">NEW ARRIVALS</a></li>
+                                    <li class="header__list-item-products-menu-list-item"><a href="">ĐẦM</a></li>
+                                    <li class="header__list-item-products-menu-list-item"><a href="">ÁO</a></li>
+                                    <li class="header__list-item-products-menu-list-item"><a href="">VÁY</a></li>
+                                    <li class="header__list-item-products-menu-list-item"><a href="">QUẦN</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__list-item"><a href="./best-seller.html" class="header__list-item-link"><span>BEST SELLER</span></a></li>
+                        <li class="header__list-item"><a href="./login-register.html" class="header__list-item-link"><span>ĐĂNG KÝ / ĐĂNG NHẬP</span></a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-item-link no-line"><span><i class="fas fa-search"></i></span></a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-item-link no-line"><span><i class="fas fa-shopping-cart"></i></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--HEADER-ON-MOBILE-->
+        <header id="header" class="header-on-mobile hidden-on-PC">
+            <div class="grid wide">
+                <nav class="header__navbar">
+                    <div class="header__cart">
+                       <a href="#" class="header__cart-link"><span><i class="fas fa-shopping-cart"></i></span></a>                    
+                    </div>
+
+                    <div class="header__icon">
+                        <a href="./index.html" class="header__icon-link">SHEBYSHJ</a>
+                    </div>
+
+                    <div class="mobile-menu-btn">
+                        <i class="mobile-menu-icon fa-solid fa-bars"></i>
+                        <i class="mobile-close-icon fa-solid fa-xmark"></i>
+                    </div>
+
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="#" class="header__list-item-link no-line"><span><i class="fas fa-search"></i></span></a></li>
+                        <li class="header__list-item"><a href="./fall-winter.html" class="header__list-item-link active"><span>WINTER '21</span></a></li>
+                        <li class="header__list-item header__list-item-products">
+                            <a href="./products.html" class="header__list-item-link"><span>PRODUCTS</span></a>
+                            <div class="header__list-item-products-menu-mobile">
+                                <ul class="header__list-item-products-menu-list-mobile">
+                                    <li class="header__list-item-products-menu-list-item-mobile"><a href="">NEW ARRIVALS</a></li>
+                                    <li class="header__list-item-products-menu-list-item-mobile"><a href="">ĐẦM</a></li>
+                                    <li class="header__list-item-products-menu-list-item-mobile"><a href="">ÁO</a></li>
+                                    <li class="header__list-item-products-menu-list-item-mobile"><a href="">VÁY</a></li>
+                                    <li class="header__list-item-products-menu-list-item-mobile"><a href="">QUẦN</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__list-item"><a href="./best-seller.html" class="header__list-item-link"><span>BEST SELLER</span></a></li>
+                        <li class="header__list-item"><a href="./login-register.html" class="header__list-item-link"><span>ĐĂNG KÝ / ĐĂNG NHẬP</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--SLIDE-SHOW-->
+        <div class="slide">
+            <img src="./images/slideshow/slideshow_1.png"  alt="slide show 1" class="slide-image animate-fading"/>
+            <img src="./images/slideshow/slideshow_2.webp" alt="slide show 2" class="slide-image animate-fading"/>
+            <img src="./images/slideshow/slideshow_3.webp" alt="slide show 3" class="slide-image animate-fading"/>
+            <img src="./images/slideshow/slideshow_4.webp" alt="slide show 4" class="slide-image animate-fading"/>
+        </div>
+        <!--BANNER-->
+        <div class="banner">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-6 c-12 m-12 banner-product banner-product-1">
+                        <a href="#home" class="banner-product-link">
+                            <img src="./images/banner/xxx_4.png" alt="Áo trắng" class="banner-product-image"/>
+                        </a>
+                        <div class="banner-product-caption banner-product-caption__left">
+                            <h3>TOPS</h3>
+                            <p>MUA NGAY</p>
+                        </div>
+                    </div>
+                    <div class="col l-6 c-12 m-12 banner-product banner-product-2">
+                        <a href="#home" class="banner-product-link">
+                            <img src="./images/banner/xxx_5.png" alt="Váy xạnh" class="banner-product-image"/>
+                        </a>
+                        <div class="banner-product-caption banner-product-caption__right">
+                            <h3>DRESSES</h3>
+                            <p>MUA NGAY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--PRODUCTS-WINTER-->
+        <div class="products">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class ="col l-12 c-12 product-title">
+                        <h3>WINTER '21</h3>
+                    </div>
+                </div>
+                <div class="row products-winter">
+                </div>
+            </div>
+        </div>
+
+        <!--BANNER-2-->
+        <div class="banner">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-6 c-12 banner-product banner-product-1">
+                        <a href="#home" class="banner-product-link">
+                            <img src="./images/banner/xxx_6.png" alt="Áo trắng" class="banner-product-image"/>
+                        </a>
+                        <div class="banner-product-caption banner-product-caption__left-2">
+                            <h3>SALE OFF</h3>
+                            <p>MUA NGAY</p>
+                        </div>
+                    </div>
+                    <div class="col l-6 c-12 banner-product banner-product-2">
+                        <a href="#home" class="banner-product-link">
+                            <img src="./images/banner/xxx_7.png" alt="Váy xạnh" class="banner-product-image"/>
+                        </a>
+                        <div class="banner-product-caption banner-product-caption__right-2">
+                            <h3>SHE BY SHJ GIRL</h3>
+                            <p>MUA NGAY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--PRODUCTS-SELLER-->
+        <div class="products">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class ="col l-12 c-12 product-title">
+                        <h3>BEST SELLERS</h3>
+                    </div>
+                </div>
+                <div class="row products-seller">
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row no-gutters footer-top">
+                    <div class="col l-3 c-6">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h3>Thông tin</h3>
+                            </div>
+                            <ul class="footer-item-content">
+                                <li class="footer-item-conten-item"><a href="#home">Tìm kiếm</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Giới thiệu</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Hệ thống cửa hàng</a></li>
+                            </ul>      
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h3>Sản phẩm</h3>
+                            </div>
+                            <ul class="footer-item-content">
+                                <li class="footer-item-conten-item"><a href="#home">New arrivals</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Đầm</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Áo</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Váy</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Quần</a></li>
+                            </ul>      
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h3>Chính sách</h3>
+                            </div>
+                            <ul class="footer-item-content">
+                                <li class="footer-item-conten-item"><a href="#home">Chính sách và quy định chung</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Hướng dẫn mua hàng</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Hướng dẫn thanh toán</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Chính sách vận chuyển</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Chính sách đổi hàng</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Chính sách bảo mật</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Kiểm tra đơn hàng</a></li>
+                            </ul>      
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h3>Khác</h3>
+                            </div>
+                            <ul class="footer-item-content">
+                                <li class="footer-item-conten-item"><a href="#home">Blog</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Liên hệ</a></li>
+                                <li class="footer-item-conten-item"><a href="#home">Tuyển dụng</a></li>
+                            </ul>      
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters footer-middle">
+                    <div class="col l-3 c-12">
+                        <div class="footer-item-logo">
+                            <a href="#home"><img src="./images/footer/logo_ft.png" alt="logo" class="footer-item-logo-top"/></a>
+                            <a href="#home"><img src="./images/footer/dathongbao.png" alt="logo" class="footer-item-logo-bottom"/></a>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item-address">
+                            <div class="footer-item-address-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="footer-item-address-content">
+                                <p class="content-title">CÔNG TY TNHH SHEBYSHJ</p>           
+                                <p class="content-describtion">Địa chỉ: 63 Tú Xương, Phường 7, Quận 3, Thành phố Hồ Chí Minh. <br/>
+                                    Số ĐKKD 0316182959 do Sở Kế hoạch đầu tư TP.HCM cấp ngày 05/3/2020
+                                </p>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item-email">
+                            <div class="footer-item-email-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="footer-item-email-content">
+                                <p class="content-describtion">Email: shebyshj18@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item-phone">
+                            <div class="footer-item-phone-icon">
+                                <i class="fas fa-phone-volume"></i>
+                            </div>
+                            <div class="footer-item-phone-content">
+                                <p class="content-describtion">Phone: 0817.521.979</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters footer-bottom">
+                    <div class="col l-12">
+                        <div class="payment-logo">
+                            <img src="./images/footer/payment-icon.png" alt="payment" class="payment-logo-img"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-to-top" onclick="topFunction()">
+            <button class="btn btn-scroll"><span><i class="fa-solid fa-angle-up"></i></span></button>
+        </div>
+
+        <!--MODAL-->
+        <!-- <div class="modal">
+            <div class="modal-container">
+                <div class="modal-close-icon">
+                    <i class="fas fa-times"></i>
+                </div>
+                <header class="modal-header">
+                    THÔNG TIN SẢN PHẨM
+                </header>
+                <div class="modal-body">
+                    <form method="" action="" class="form">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col l-5">
+                                    <div class="image-zoom">
+                                        <img src="./images/products-winter/Skylar Dress-1.jpeg" alt="" class="image-zoom-img">     
+                                        <div class="row">
+                                            <div class="col l-3">
+                                                <div class="image-zoom-seen">
+                                                    <img src="./images/products-winter/Skylar Dress-1.jpeg" alt="" class="image-zoom-seen-img">
+                                                </div>
+                                            </div>
+                                            <div class="col l-3">
+                                                <div class="image-zoom-seen">
+                                                    <img src="./images/products-winter/Skylar Dress-1.jpeg" alt="" class="image-zoom-seen-img">
+                                                </div>
+                                            </div>
+                                            <div class="col l-3">
+                                                <div class="image-zoom-seen">
+                                                    <img src="./images/products-winter/Skylar Dress-1.jpeg" alt="" class="image-zoom-seen-img">
+                                                </div>
+                                            </div>
+                                            <div class="col l-3">
+                                                <div class="image-zoom-seen">
+                                                    <img src="./images/products-winter/Skylar Dress-1.jpeg" alt="" class="image-zoom-seen-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-7">
+                                    <div class="form-input">
+                                        <div class="form-input-title">
+                                            <h1>Mori Dress</h1>
+                                        </div>
+                                        <div class="form-input-price">
+                                            <span>590,000đ</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label>Số lượng</label>
+                                        <input type="number" name="quanlity" value="1" min="1" class="form-input-quanlity">
+                                    </div>
+                                    <div class="form-input">
+                                        <button class="btn btn-add-cart">Thêm vào giỏ hàng</button>
+                                        <button class="btn btn-see-details">Xem chi tiết</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/product-winter-seller.js"></script>
+</body>
+</html>
